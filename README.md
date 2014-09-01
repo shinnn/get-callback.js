@@ -1,4 +1,4 @@
-# get-callback 
+# get-callback.js
 
 [![Build Status](https://travis-ci.org/shinnn/get-callback.js.svg?branch=master)](https://travis-ci.org/shinnn/get-callback.js)
 [![Build status](https://ci.appveyor.com/api/projects/status/q5d0o8mtvpf43rre)](https://ci.appveyor.com/project/ShinnosukeWatanabe/get-callback-js)
