@@ -1,0 +1,43 @@
+{
+  "name": "get-callback",
+  "version": "0.0.0",
+  "description": "Get a callback function from arguments",
+  "repository": "shinnn/get-callback.js",
+  "author": {
+    "name": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn"
+  },
+  "scripts": {
+    "pretest": "eslint *.js & jscs *.js",
+    "test": "node test.js | tap-spec",
+    "coverage": "istanbul cover test.js",
+    "coveralls": "${npm_package_scripts_coverage} && istanbul-coveralls"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shinnn/get-callback.js/blob/master/LICENSE"
+    }
+  ],
+  "main": "./get-callback-cjs.js",
+  "files": [
+    "get-callback-cjs.js",
+    "LICENSE"
+  ],
+  "keywords": [
+    "callback",
+    "function",
+    "argument",
+    "args"
+  ],
+  "devDependencies": {
+    "eslint": "^0.7.4",
+    "istanbul": "^0.3.0",
+    "istanbul-coveralls": "^1.0.0",
+    "jscs": "^1.6.0",
+    "nop": "0.0.0",
+    "require-main": "^0.1.1",
+    "tap-spec": "^0.2.1",
+    "tape": "^2.14.0"
+  }
+}

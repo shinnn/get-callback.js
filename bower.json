@@ -1,0 +1,35 @@
+{
+  "name": "get-callback",
+  "version": "1.0.0",
+  "description": "Get a callback function from arguments",
+  "keywords": [
+    "callback",
+    "function",
+    "argument",
+    "args"
+  ],
+  "main": "./get-callback.js",
+  "homepage": "https://github.com/shinnn/get-callback.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/get-callback.js.git"
+  },
+  "authors": [
+    {
+      "name": "Shinnosuke Watanabe",
+      "url": "https://github.com/shinnn"
+    }
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "coverage",
+    "node_modules",
+    "test.js",
+    "get-callback-cjs.js",
+    "appveyor.yml",
+    "package.json",
+    "component.json"
+  ]
+}

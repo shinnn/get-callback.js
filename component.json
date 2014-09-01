@@ -1,0 +1,20 @@
+{
+  "name": "get-callback",
+  "version": "1.0.0",
+  "description": "Get a callback function from arguments",
+  "keywords": [
+    "callback",
+    "function",
+    "argument",
+    "args"
+  ],
+  "repository": "shinnn/get-callback.js",
+  "main": "get-callback-cjs.js",
+  "scripts": [
+    "get-callback-cjs.js"
+  ],
+  "files": [
+    "LICENSE"
+  ],
+  "license": "MIT"
+}
